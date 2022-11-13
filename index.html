@@ -4,7 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Cristiana's portfolio</title>
+		<meta
+			name="description"
+			content="Cristiana is a front-end developer based in Portugal."
+		/>
+		<title>Front-end developer - Cristiana Santos</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -32,14 +36,28 @@
 	<body>
 		<div class="container">
 			<nav class="d-flex justify-content-between">
-				<a href="/">
-					<img src="images/logo.PNG" class="logo" alt="" />
+				<a href="/" title="Homepage">
+					<img
+						src="images/logo.PNG"
+						class="logo d-none d-md-block"
+						alt="Cristiana logo"
+					/>
 				</a>
 				<ul>
-					<li class="active"><a href="/">Home</a></li>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/work.html">Work</a></li>
-					<li><a href="/contact.html">Contact</a></li>
+					<li class="active">
+						<a href="/" title="Homepage">Home</a>
+					</li>
+					<li>
+						<a href="/about.html" title="About Cristiana">About</a>
+					</li>
+					<li>
+						<a href="/work.html" title="Cristiana's work">Work</a>
+					</li>
+					<li>
+						<a href="/contact.html" title="Contact Cristiana"
+							>Contact</a
+						>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -48,29 +66,39 @@
 			<h1>Cristiana Santos</h1>
 			<h2 class="mb-5">front-end developer based in Portugal</h2>
 			<div>
-				<a href="#" class="btn btn-branding">Contact me</a>
+				<a
+					href="/contact.html"
+					class="btn btn-branding"
+					title="Contact me"
+				>
+					Contact me
+				</a>
 			</div>
 		</div>
 		<p class="text-center m-5">
-			Featured Project which my best projects be choice to show
+			Check out some of my featured projects below
 		</p>
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col d-none d-lg-block">
-					<img src="images/yogurt.png" class="img-fluid" alt="" />
+					<img
+						src="images/yogurt.png"
+						class="img-fluid"
+						alt="Yogurt project preview"
+					/>
 				</div>
 				<div class="col-6">
 					<div class="project-description">
 						<h2 class="mb-5">Yogurt Project</h2>
 						<p class="mb-5 text-muted">
-							Far far away, behind the word mountains, far from
-							the countries Vokalia and Consonantia, there live
-							the blind texts. Separated they live in
-							Bookmarksgrove right at the coast of the Semantics,
-							a large language ocean. A small river named Duden
-							flows by
+							I entered the world of front-end development by
+							gaining some knowledge in HTML, CSS, and JavaScript.
+							I used my knowledge of these languages, along with
+							my new skills in VS Code, to build a landing page
+							about Yogurt. The page utilizes JavaScript functions
+							to create user interaction.
 						</p>
-						<a href="" class="btn btn-branding-outline">
+						<a href="/work.html" class="btn btn-branding-outline">
 							Learn more</a
 						>
 					</div>
@@ -81,38 +109,46 @@
 					<div class="project-description">
 						<h2 class="mb-5">Weather App</h2>
 						<p class="mb-5 text-muted">
-							Far far away, behind the word mountains, far from
-							the countries Vokalia and Consonantia, there live
-							the blind texts. Separated they live in
-							Bookmarksgrove right at the coast of the Semantics,
-							a large language ocean. A small river named Duden
-							flows by
+							I built a Vanilla JavaScript weather app in SheCodes
+							Plus, an advanced 8-week JavaScript coding workshop.
+							Building upon my previously-gained knowledge, I also
+							became skilled in Bootstrap, API's, real-life
+							development workflow, hosting, and advanced
+							JavaScript. I combined all of these skills to create
+							a fully-functioning weather app.
 						</p>
-						<a href="" class="btn btn-branding-outline">
+						<a href="/work.html" class="btn btn-branding-outline">
 							Learn more</a
 						>
 					</div>
 				</div>
 				<div class="col d-none d-lg-block">
-					<img src="images/weather.png" class="img-fluid" alt="" />
+					<img
+						src="images/weather.png"
+						class="img-fluid"
+						alt="Weather app preview"
+					/>
 				</div>
 			</div>
 			<div class="row mb-5">
 				<div class="col d-none d-lg-block">
-					<img src="images/dictionary.png" class="img-fluid" alt="" />
+					<img
+						src="images/dictionary.png"
+						class="img-fluid"
+						alt="Dictionary app preview"
+					/>
 				</div>
 				<div class="col-6">
 					<div class="project-description">
 						<h2 class="mb-5">Dictionary App</h2>
 						<p class="mb-5 text-muted">
-							Far far away, behind the word mountains, far from
-							the countries Vokalia and Consonantia, there live
-							the blind texts. Separated they live in
-							Bookmarksgrove right at the coast of the Semantics,
-							a large language ocean. A small river named Duden
-							flows by
+							I immersed myself in React development in SheCodes
+							React. I used my knowledge of this highly-demanded
+							framework to build a working dictionary app
+							incorporating coding best practices, along with the
+							most popular tools and technologies.
 						</p>
-						<a href="" class="btn btn-branding-outline">
+						<a href="/work.html" class="btn btn-branding-outline">
 							Learn more</a
 						>
 					</div>
@@ -123,59 +159,75 @@
 					class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
 				>
 					<div>
-						<h4>Work Inquiry</h4>
+						<h3>Work Inquiry</h3>
 						<p class="text-muted">Let's work together</p>
 					</div>
 					<div>
-						<a href="" class="btn btn-branding">Contact me</a>
+						<a
+							href=""
+							class="btn btn-branding mt-3"
+							title="Contact Cristiana"
+						>
+							Contact me
+						</a>
 					</div>
 				</div>
-				<div class="d-flex justify-content-center mb-4">
+				<div class="d-flex justify-content-center mb-5">
 					<a
 						href="mailto:cristiana.santos@gmail.com"
 						class="email-link"
-						>cristiana.santos@gmail.com</a
+						title="Email Cristiana"
 					>
+						cristiana.santos@gmail.com
+					</a>
 				</div>
 				<div class="social-links d-flex justify-content-center">
 					<a
 						href="https://www.instagram.com/mimiicaekz/"
 						target="_blank"
+						title="Instagram Profile"
 					>
 						<i class="fa-brands fa-instagram"></i>
 					</a>
-					<a href="https://github.com/Mimii15" target="_blank">
+					<a
+						href="https://github.com/Mimii15"
+						target="_blank"
+						title="Github Profile"
+					>
 						<i class="fa-brands fa-github"></i>
 					</a>
-					<a href="https://www.facebook.com/" target="_blank">
+					<a
+						href="https://www.facebook.com/"
+						target="_blank"
+						title="Facebook Profile"
+					>
 						<i class="fa-brands fa-facebook"></i>
 					</a>
 				</div>
+				<p class="text-center text-muted mt-5">
+					This project was coded by
+					<a
+						href="https://www.linkedin.com/in/cristiana-santos-14227a16a/"
+						target="_blank"
+						class="access-link"
+						>Cristiana Santos</a
+					>
+					and is
+					<a
+						href="https://github.com/Mimii15/portfolio-project"
+						target="_blank"
+						class="access-link"
+						>open-sourced on Github</a
+					>
+					and hosted on
+					<a
+						href="https://classy-sunburst-b6d007.netlify.app"
+						target="_blank"
+						class="access-link"
+						>Netlify</a
+					>
+				</p>
 			</footer>
-		</div>
-
-		<div class="footer text-muted">
-			This project was coded by
-			<a
-				href="https://www.linkedin.com/in/cristiana-santos-14227a16a/"
-				target="_blank"
-				class="access-link"
-				>Cristiana Santos</a
-			>
-			and is
-			<a
-				href="https://github.com/Mimii15/portfolio-project"
-				target="_blank"
-				class="access-link"
-				>open-sourced on Github</a
-			>
-			and hosted on
-			<a
-				href="https://classy-sunburst-b6d007.netlify.app"
-				target="_blank"
-				class="access-link"
-				>Netlify</a
-			>
 		</div>
 	</body>
 </html>
