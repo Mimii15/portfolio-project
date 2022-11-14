@@ -1,5 +1,5 @@
 :root {
-	--branding-color: #00a6a7;
+	--branding-color: #f7a942;
 	--secondary-color: #f9f7fe;
 	--heading-font-family: "Playfair Display", sans-serif;
 	--default-font-family: "Poppins", sans-serif;
@@ -126,7 +126,7 @@ p {
 }
 
 .logo {
-	max-height: 40px;
+	max-width: 105px;
 }
 
 nav {
@@ -136,7 +136,7 @@ nav {
 nav li {
 	display: inline;
 	list-style: none;
-	line-height: 42px;
+	line-height: 70px;
 	margin-left: 10px;
 }
 
@@ -220,14 +220,18 @@ footer .social-links a:hover {
 	}
 
 	footer .email-link {
-		font-size: 20px;
-	}
-
-	nav logo {
-		max-height: 50px;
+		font-size: 16px;
 	}
 
 	.profile-picture {
 		display: none;
+	}
+
+	.logo {
+		width: 48px;
+	}
+
+	nav a {
+		font-size: 15px;
 	}
 }
