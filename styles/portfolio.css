@@ -1,5 +1,5 @@
 :root {
-	--branding-color: #6c63ff;
+	--branding-color: #00a6a7;
 	--secondary-color: #f9f7fe;
 	--heading-font-family: "Playfair Display", sans-serif;
 	--default-font-family: "Poppins", sans-serif;
@@ -190,9 +190,14 @@ footer .social-links a:hover {
 	background-color: var(--branding-color);
 }
 
+.profile-picture {
+	max-width: 400px;
+	margin-left: 110px;
+}
+
 @media (max-width: 900px) {
 	h1 {
-		font-size: 44px;
+		font-size: 40px;
 		line-height: 1.5;
 	}
 
@@ -214,7 +219,15 @@ footer .social-links a:hover {
 		text-align: center;
 	}
 
+	footer .email-link {
+		font-size: 20px;
+	}
+
 	nav logo {
 		max-height: 50px;
+	}
+
+	.profile-picture {
+		display: none;
 	}
 }
